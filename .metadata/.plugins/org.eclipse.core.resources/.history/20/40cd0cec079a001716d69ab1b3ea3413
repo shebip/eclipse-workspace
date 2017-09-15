@@ -1,0 +1,14 @@
+package in.vamsoft.training;
+
+
+
+public abstract class Vehicle {
+	public  Vehicle()
+	{
+		System.out.println("Vehicle.Vehicle()");
+	}
+	public void start();
+	public void stop();
+	public void brake();
+	
+}
