@@ -10,7 +10,7 @@ public class HierarchyTest {
 
 		SportsCar car = new SportsCar("suv");
 		Car c1=new SportsCar();
-		System.out.println(c1);
+		System.out.println(c1.toString());
 		System.out.println(car);
 
 	}
