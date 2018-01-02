@@ -17,13 +17,13 @@ public class CustomerTest {
     for (int i=0; i<ar.size(); i++)
         System.out.println(ar.get(i));
 
-    Collections.sort(ar, new Sortbyid());
+    //Collections.sort(ar, new Sortbyid());
 
     System.out.println("\nSorted by Id");
     for (int i=0; i<ar.size(); i++)
         System.out.println(ar.get(i));
 
-    Collections.sort(ar, new Sortbyname());
+    //Collections.sort(ar, new Sortbyname());
 
     System.out.println("\nSorted by name");
     for (int i=0; i<ar.size(); i++)

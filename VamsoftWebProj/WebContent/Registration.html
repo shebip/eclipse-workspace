@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Registration Form</title>
+
+</head>
+<body text = "blue" bgcolor = "pink">
+
+<form action="Registrationservlet" method="post">
+         Name: <input type = "text" name = "name" />
+         <br>
+         Date Of Birth: <input type = "text" name = "dob" />
+         <br>
+         Address: 
+         
+         <textarea rows = "5" cols = "50" name = "Address">
+            Enter Address here...
+         </textarea>
+         
+         <br>
+         Phone No: <input type = "text" name = "phoneno" />
+         <br>        
+         Gender: <input type = "radio" name = "Gender" value = "Male"> Male
+          <input type = "radio" name = "Gender" value = "Female"> Female         
+         <br>
+         
+         Hobbies: 
+         
+         <select name="hobbies" multiple="multiple">
+         
+         <option value="carrom"> Carrom </option>
+           <option value="tennis"> tennis </option>
+           <option value="chess"> chess </option>
+         
+         
+         </select>
+         <input type = "submit"  value = "Submit" />
+         
+         
+  </form>
+
+</body>
+</html>

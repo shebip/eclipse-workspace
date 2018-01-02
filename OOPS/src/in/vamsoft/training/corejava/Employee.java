@@ -1,7 +1,8 @@
 package in.vamsoft.training.corejava;
 
+import java.io.Serializable;
 
-public class Employee {
+public class Employee implements Serializable{
   
   
   private int empCode;
